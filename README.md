@@ -84,6 +84,10 @@ static const struct p_functions_hooks{
 };
 ```
 
+## Demo
+
+![demo](images\demo.gif)
+
 ## References
 
 1. https://github.com/milabs/khook

@@ -1,9 +1,6 @@
 KERNEL_VER = $(shell uname -r)
-
-# the file to compile
 MODULE := hook_engine
 obj-m += $(MODULE).o
-#$(MODULE)-objs:= p_lkrg_main.o x86/p_x86_hook.o arm64/p_arm64_check.o arm64/p_arm64_hook.o arm32/p_arm32_check.o arm32/p_arm32_hook.o hook/p_generic_permission/p_generic_perimission.o
 $(MODULE)-objs += p_lkrg_main.o \
 				  x86/p_x86_hook.o \
 				  arm64/p_arm64_check.o \
